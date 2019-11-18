@@ -254,6 +254,36 @@ footer img{
   body{
     font-size: 18px;
   }
+  .grid{
+    max-width: 1060px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .leading{
+    margin: 20px 0;
+  }
+  .site-nav{
+    padding: 0 20px;
+  }
+  .site-nav h1{
+    grid-column: 1/3;
+  }
+  .site-nav ul{
+    display: flex;
+    grid-column: 6/9;
+    justify-content: flex-end;
+    align-self: center;
+  }
+  .site-nav li{
+    margin-left: 20px;
+  }
+  .welcome-text{
+    grid-column: 1/5;
+    align-self: center;
+  }
+  #welcome{
+    padding-bottom: 40px;
+  }
 
 }
 
