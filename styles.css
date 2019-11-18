@@ -158,6 +158,55 @@ h4{
   text-align: center;
   margin: 0 20px;
 }
+#contact{
+  padding: 30px 20px;
+  background: #080936;
+}
+#contact h3, #contact p{
+  margin-bottom: 0;
+  text-align: center;
+}
+#contact form{
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+#contact input,#contact textarea{
+  width: 100%;
+  margin: 10px 0;
+}
+#contact textarea{
+  max-width: 100%;
+  height: 200px;
+}
+#contact .button{
+  margin-top: 10px;
+}
+footer{
+  padding: 30px 20px;
+  background-color: #14153D;
+  background-image: url(assets/footer_image.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+footer .copyright{
+  grid-column: 1/3;
+  font-size: 0.8em;
+}
+footer .social{
+  grid-column: 7/9;
+  display: flex;
+  justify-content: flex-end;
+}
+footer li{
+  margin: 0 6px;
+}
+footer img{
+  width: 20px;
+}
+
 
 /* small tablet styles */
 @media screen and (min-width: 620px){
