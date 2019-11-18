@@ -107,6 +107,57 @@ h4{
 .welcome-img img{
   width: 200%;
 }
+#portfolio{
+  background: url(assets/square_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 30px 20px;
+}
+#portfolio h3{
+  margin-bottom: 0;
+  text-align: center;
+}
+.projects{
+  margin: 20px 0;
+}
+.projects a{
+  grid-column: 1/9;
+  display: flex;
+  margin: 20px 0
+}
+.projects a *{
+  margin: 0 20px;
+  max-width: 40%;
+  align-self: center;
+}
+.projects h4{
+  color: #9994f7
+}
+#skills{
+  padding: 30px 20px;
+  background: #07083E;
+}
+#skills h3{
+  text-align: center;
+}
+#skills ul{
+  margin: 40px 0;
+}
+#skills li{
+  padding: 10px;
+  background: rgba(0,0,0,0.2);
+  grid-column: span 4;
+  text-align: center;
+}
+#skills img{
+  height: 80px;
+  margin: 10px auto;
+}
+#skills p{
+  text-align: center;
+  margin: 0 20px;
+}
 
 /* small tablet styles */
 @media screen and (min-width: 620px){
